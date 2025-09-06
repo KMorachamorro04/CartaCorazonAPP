@@ -4,6 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
+  "postCreateCommand": "dotnet workload install microsoft-windows-desktop-sdk-full",
   "customizations": {
     "vscode": {
       "extensions": [
