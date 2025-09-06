@@ -1,10 +1,10 @@
 {
   "name": "WPF Development",
-  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
+    "ghcr.io/devcontainers/features/dotnet:2": {},
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
-  "postCreateCommand": "dotnet workload install microsoft-windows-desktop-sdk-full",
   "customizations": {
     "vscode": {
       "extensions": [
